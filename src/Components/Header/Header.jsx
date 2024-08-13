@@ -160,7 +160,7 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navigation">
               <ul className="navbar-nav ml-auto text-center">
-                <li className="nav-item">
+                <li className="nav-item active">
                   <a className="nav-link" href="index.html">
                     Home
                   </a>
