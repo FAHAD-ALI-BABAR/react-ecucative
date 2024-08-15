@@ -5,7 +5,7 @@ import { IoChevronForwardOutline } from "react-icons/io5";
 const Abouthero = (props) => {
   return (
     <>
-   <section className="page-title-section overlay" data-background={baner} style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', backgroundBlendMode: 'overlay' }}>
+   <section className="page-title-section overlay" data-background={baner} style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)', backgroundBlendMode: 'overlay' }}>
   <div className="container">
     <div className="row">
       <div className="col-md-8">

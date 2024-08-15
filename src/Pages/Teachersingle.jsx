@@ -1,19 +1,20 @@
 import React from 'react'
 import Header from '../Components/Header/Header'
 import Abouthero from '../Components/Abouthero/Abouthero'
-import Contactpage from '../Components/Contactpage/Contactpage'
-import Map from '../Components/Map/Map'
+import Courses from '../Components/Courses/Courses'
 import Footer from '../Components/Footer/Footer'
+import Single from '../Components/Single/Single'
 
-const Contact = () => {
+const Teachersingle = () => {
   return (
     <>
     <Header/>
-    <Abouthero heading={"Home"} description={"Contact Us"}/>
-    <Contactpage/>
+    <Abouthero heading={"Home"} description={"John Doe"}/>
+    <Single/>
     <Footer/>
+    
     </>
   )
 }
 
-export default Contact
+export default Teachersingle

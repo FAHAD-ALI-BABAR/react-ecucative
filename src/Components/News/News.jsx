@@ -23,7 +23,7 @@ const News = () => {
               <li className="list-inline-item mr-3 ml-0">By Somrat Sorkar</li>
             </ul>
             <a href="blog-single.html">
-              <h4 className="card-title">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
+              <h4 className="card-title tittt" >Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
             </a>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
             <a href="blog-single.html" className="btn btn-primary btn-sm">read more</a>
@@ -40,7 +40,7 @@ const News = () => {
               <li className="list-inline-item mr-3 ml-0">By Jonathon Drew</li>
             </ul>
             <a href="blog-single.html">
-              <h4 className="card-title">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
+              <h4 className="card-title tittt">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
             </a>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
             <a href="blog-single.html" className="btn btn-primary btn-sm">read more</a>
@@ -57,7 +57,7 @@ const News = () => {
               <li className="list-inline-item mr-3 ml-0">By Alex Pitt</li>
             </ul>
             <a href="blog-single.html">
-              <h4 className="card-title">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
+              <h4 className="card-title tittt">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
             </a>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
             <a href="blog-single.html" className="btn btn-primary btn-sm">read more</a>

@@ -223,11 +223,17 @@ button,
 select {
   cursor: pointer;
   transition: 0.2s ease;
+  
 }
 a:focus,
 button:focus,
 select:focus {
   outline: 0;
+}
+.tittt{
+
+color: #1e1e4b;
+
 }
 
 a:hover {

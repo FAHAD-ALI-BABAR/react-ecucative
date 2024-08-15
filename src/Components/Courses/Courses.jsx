@@ -16,7 +16,7 @@ const Courses = () => {
           <h2 className="mb-0 text-nowrap mr-3">Our Course</h2>
           <div className="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="courses.html" className="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">see all</a>
+          <a href="blog-single.html" className="btn btn-primary btn-sm">See all</a>
           </div>
         </div>
       </div>

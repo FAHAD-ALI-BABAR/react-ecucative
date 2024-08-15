@@ -16,6 +16,11 @@ import Course from './Pages/Course';
 import Event from './Pages/Event';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
+import Notice from './Pages/Notice';
+import Research from './Pages/Research';
+import Scholarship from './Pages/Scholarship';
+import Teachers from './Pages/Teachers';
+import Teachersingle from './Pages/Teachersingle';
 
 
 function App() {
@@ -30,6 +35,12 @@ function App() {
           <Route path='events' element={<Event/>}/>
           <Route path='blogs' element={<Blog/>}/>
           <Route path='contact' element={<Contact/>}/>
+          <Route path='notice' element={<Notice/>}/>
+          <Route path='research' element={<Research/>}/>
+          <Route path='scholarship' element={<Scholarship/>}/>
+          <Route path='teachers' element={<Teachers/>}/>
+          <Route path='teachersingle' element={<Teachersingle/>}/>
+          
         </Routes>
       
       

@@ -1,19 +1,18 @@
 import React from 'react'
 import Header from '../Components/Header/Header'
 import Abouthero from '../Components/Abouthero/Abouthero'
-import Contactpage from '../Components/Contactpage/Contactpage'
-import Map from '../Components/Map/Map'
+import Scholarshipsec from '../Components/Scholarshipsec/Scholarshipsec'
 import Footer from '../Components/Footer/Footer'
 
-const Contact = () => {
+const Scholarship = () => {
   return (
     <>
     <Header/>
-    <Abouthero heading={"Home"} description={"Contact Us"}/>
-    <Contactpage/>
+    <Abouthero heading={"Home"} description={"Scholarships"}/>
+    <Scholarshipsec/>
     <Footer/>
     </>
   )
 }
 
-export default Contact
+export default Scholarship

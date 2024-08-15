@@ -1,19 +1,19 @@
 import React from 'react'
 import Header from '../Components/Header/Header'
+import Hero from '../Components/Hero/Hero'
 import Abouthero from '../Components/Abouthero/Abouthero'
-import Contactpage from '../Components/Contactpage/Contactpage'
-import Map from '../Components/Map/Map'
+import Accordian from '../Components/Accordian/Accordian'
 import Footer from '../Components/Footer/Footer'
 
-const Contact = () => {
+const Notice = () => {
   return (
     <>
     <Header/>
-    <Abouthero heading={"Home"} description={"Contact Us"}/>
-    <Contactpage/>
+    <Abouthero heading={"Home"} description={"Notice"}/>
+    <Accordian/>
     <Footer/>
     </>
   )
 }
 
-export default Contact
+export default Notice

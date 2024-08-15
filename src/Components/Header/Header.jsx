@@ -11,7 +11,7 @@ import { FaDiscord } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import banner from "../../Images/banner.jpg"
-
+import {Link,NavLink} from "react-router-dom"
 
 
 const Header = () => {
@@ -120,15 +120,13 @@ const Header = () => {
             <div className="col-lg-8 text-center text-lg-right">
               <ul className="list-inline">
                 <li className="list-inline-item">
-                  <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">
-                    Notice
-                  </a>
+                <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" to="/notice">NOTICE</NavLink>
                 </li>
                 <li className="list-inline-item">
-              <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">research</a>
+                <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" to="/research">RESEARCH</NavLink>
             </li>
             <li className="list-inline-item">
-              <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">SCHOLARSHIP</a>
+            <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" to="/scholarship">SCHOLARSHIP</NavLink>
             </li>
             <li className="list-inline-item">
               <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">login</a>
@@ -161,21 +159,19 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navigation">
               <ul className="navbar-nav ml-auto text-center">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html">
-                    Home
-                  </a>
+                  <NavLink className="nav-link" to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-              <a className="nav-link" href="./about.html">About</a>
+                <NavLink className="nav-link" to="/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./coursespage.html">Courses</a>
+            <NavLink className="nav-link" to="/course">Courses</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Events</a>
+            <NavLink className="nav-link" to="/events">Event</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
+            <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
             </li>
             <li className="nav-item dropdown view">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown"  aria-expanded="false">
@@ -183,8 +179,8 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a className="dropdown-item" href="#">Teacher</a></li>
-                <li><a className="dropdown-item" href="#">Teacher Single</a></li>
-                <li><a className="dropdown-item" href="#">Notice</a></li>
+                <li> <NavLink className="dropdown-item" to="/teachersingle">Teacher-single</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/notice">Notice</NavLink></li>
                 <li><a className="dropdown-item" href="#">Notice Details</a></li>
                 <li><a className="dropdown-item" href="#">Research</a></li>
                 <li><a className="dropdown-item" href="#">Scholarship</a></li>
@@ -205,7 +201,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+            <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
               </ul>
             </div>
