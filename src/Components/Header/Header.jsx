@@ -178,7 +178,7 @@ const Header = () => {
               <a className="nav-link" href="#">Blog</a>
             </li>
             <li className="nav-item dropdown view">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown"  aria-expanded="false">
                 Pages <IoIosArrowDown />
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
