@@ -8,6 +8,7 @@ import { TfiBlackboard } from "react-icons/tfi";
 import { SlNotebook } from "react-icons/sl";
 import { SlNote } from "react-icons/sl";
 import education from "../../Images/education.jpg"
+import { HashLink as NavLink } from 'react-router-hash-link';
 
 const Hero = () => {
     useEffect(() => {
@@ -61,9 +62,8 @@ const Hero = () => {
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                   enim ad minim veniam, quis nostrud exer
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Apply now
-                </a>
+                <NavLink className="btn btn-primary" smooth to="/contact#top">Apply now</NavLink>
+                
               </div>
             </div>
           </div>
@@ -178,17 +178,7 @@ const Hero = () => {
               anim id est laborum. Sed ut perspiciatis unde omnis iste natus
               error sit voluptatem
             </p>
-            <a
-              href="#"
-              className="btn btn-primary"
-              data-animation-out="fadeOutRight"
-              data-delay-out="5"
-              data-duration-in=".3"
-              data-animation-in="fadeInLeft"
-              data-delay-in=".7"
-            >
-              Learn more
-            </a>
+            <NavLink className="btn btn-primary" smooth to="/about#top">Learn more</NavLink>
           </div>
           <div className="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
             <img

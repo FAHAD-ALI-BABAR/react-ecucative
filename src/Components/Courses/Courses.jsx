@@ -5,6 +5,8 @@ import course3 from "../../Images/Course3.jpg"
 import course4 from "../../Images/Course4.jpg"
 import course5 from "../../Images/Course5.jpg"
 import course6 from "../../Images/Course6.jpg"
+import { HashLink as NavLink } from 'react-router-hash-link';
+
 const Courses = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const Courses = () => {
           <h2 className="mb-0 text-nowrap mr-3">Our Course</h2>
           <div className="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-          <a href="blog-single.html" className="btn btn-primary btn-sm">See all</a>
+          <NavLink className="btn btn-primary" smooth to="/course#top">See all</NavLink>
           </div>
         </div>
       </div>
@@ -37,7 +39,7 @@ const Courses = () => {
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna.</p>
-        <a href="course-single.html" className="btn btn-primary btn-sm">Apply now</a>
+          <NavLink className="btn btn-primary" smooth to="/coursedetails#top">Apply now</NavLink>
       </div>
     </div>
   </div>
@@ -55,7 +57,7 @@ const Courses = () => {
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna.</p>
-        <a href="course-single.html" className="btn btn-primary btn-sm">Apply now</a>
+          <NavLink className="btn btn-primary" smooth to="/coursedetails#top">Apply now</NavLink>
       </div>
     </div>
   </div>
@@ -73,7 +75,7 @@ const Courses = () => {
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna.</p>
-        <a href="course-single.html" className="btn btn-primary btn-sm">Apply now</a>
+          <NavLink className="btn btn-primary" smooth to="/coursedetails#top">Apply now</NavLink>
       </div>
     </div>
   </div>
@@ -91,7 +93,7 @@ const Courses = () => {
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna.</p>
-        <a href="course-single.html" className="btn btn-primary btn-sm">Apply now</a>
+          <NavLink className="btn btn-primary" smooth to="/coursedetails#top">Apply now</NavLink>
       </div>
     </div>
   </div>
@@ -109,7 +111,7 @@ const Courses = () => {
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna.</p>
-        <a href="course-single.html" className="btn btn-primary btn-sm">Apply now</a>
+          <NavLink className="btn btn-primary" smooth to="/coursedetails#top">Apply now</NavLink>
       </div>
     </div>
   </div>
@@ -127,7 +129,7 @@ const Courses = () => {
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna.</p>
-        <a href="course-single.html" className="btn btn-primary btn-sm">Apply now</a>
+          <NavLink className="btn btn-primary" smooth to="/coursedetails#top">Apply now</NavLink>
       </div>
     </div>
   </div>
@@ -135,7 +137,7 @@ const Courses = () => {
 
     <div className="row">
       <div className="col-12 text-center">
-        <a href="courses.html" className="btn btn-sm btn-outline-primary d-sm-none d-inline-block">sell all</a>
+      <NavLink className="btn btn-primary" smooth to="/course#top">See all</NavLink>
       </div>
     </div>
   </div>

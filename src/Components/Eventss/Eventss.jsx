@@ -3,6 +3,7 @@ import event1 from "../../Images/event1.jpg"
 import event2 from "../../Images/event2.jpg"
 import event3 from "../../Images/event3.jpg"
 import "./Eventss.css"
+import { HashLink as NavLink } from 'react-router-hash-link';
 
 const Eventss = () => {
 
@@ -16,7 +17,7 @@ const Eventss = () => {
           <h2 className="mb-0 text-nowrap mr-3">Upcoming Events</h2>
           <div className="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-          <a href="blog-single.html" className="btn btn-primary btn-sm">See all</a>
+          <NavLink className="btn btn-primary btn-sm" smooth to="/events#top">See all</NavLink>
           </div>
         </div>
       </div>

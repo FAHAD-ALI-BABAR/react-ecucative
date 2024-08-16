@@ -11,7 +11,8 @@ import { FaDiscord } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import banner from "../../Images/banner.jpg"
-import {Link,NavLink} from "react-router-dom"
+import { HashLink as NavLink } from 'react-router-hash-link';
+
 
 
 const Header = () => {
@@ -158,20 +159,20 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navigation">
               <ul className="navbar-nav ml-auto text-center">
-                <li className="nav-item active">
-                  <NavLink className="nav-link" to="/">Home</NavLink>
+                <li className="nav-item ">
+                  <NavLink className="nav-link" smooth to="/#top">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/about">About</NavLink>
+                <NavLink className="nav-link" smooth to="/about#top">About</NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/course">Courses</NavLink>
+            <NavLink className="nav-link" smooth to="/course#top">Courses</NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/events">Event</NavLink>
+            <NavLink className="nav-link" smooth to="/events#top">Event</NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
+            <NavLink className="nav-link" smooth to="/blogs#top">Blogs</NavLink>
             </li>
             <li className="nav-item dropdown view">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown"  aria-expanded="false">
@@ -179,14 +180,14 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a className="dropdown-item" href="#">Teacher</a></li>
-                <li> <NavLink className="dropdown-item" to="/teachersingle">Teacher-single</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/notice">Notice</NavLink></li>
-                <li><a className="dropdown-item" href="#">Notice Details</a></li>
-                <li><a className="dropdown-item" href="#">Research</a></li>
-                <li><a className="dropdown-item" href="#">Scholarship</a></li>
-                <li><a className="dropdown-item" href="#">Course Details</a></li>
-                <li><a className="dropdown-item" href="#">Event Details</a></li>
-                <li><a className="dropdown-item" href="#">Blog Details</a></li>
+                <li> <NavLink className="dropdown-item" smoothnto="/teachersingle#top">Teacher-single</NavLink></li>
+                <li><NavLink className="dropdown-item" smooth to="/notice#top">Notice</NavLink></li>
+                <li><NavLink className="dropdown-item" smooth to="/noticedetails#top">Notice Details</NavLink></li>
+                <li><NavLink className="dropdown-item" smooth to="/research#top">Research</NavLink></li>
+                <li><NavLink className="dropdown-item" smooth to="/scholarship#top">Scholarship</NavLink></li>
+                <li><NavLink className="dropdown-item" smooth to="/coursedetails#top">Course Details</NavLink></li>
+                <li><NavLink className="dropdown-item" smooth to="/eventdetails#top">Event Details</NavLink></li>
+                <li><NavLink className='dropdown-item' smooth to="/blogdetails#top">Blog Details</NavLink></li>
                 
                 <li className="dropdown-item dropdown dropleft">
                   <a className="dropdown-toggle" href="#" id="navbarDropdownSubmenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -201,7 +202,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/contact">Contact</NavLink>
+            <NavLink className="nav-link" smooth to="/contact#top">Contact</NavLink>
             </li>
               </ul>
             </div>

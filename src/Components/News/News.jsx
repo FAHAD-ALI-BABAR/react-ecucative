@@ -3,6 +3,8 @@ import news1 from "../../Images/news1.jpg"
 import news2 from "../../Images/news2.jpg"
 import news3 from "../../Images/news3.jpg"
 import "./News.css"
+import { HashLink as NavLink } from 'react-router-hash-link';
+
 const News = () => {
   return (
     <section className="section pt-0">
@@ -26,7 +28,8 @@ const News = () => {
               <h4 className="card-title tittt" >Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
             </a>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-            <a href="blog-single.html" className="btn btn-primary btn-sm">read more</a>
+            
+            <NavLink className='btn btn-primary btn-sm' smooth to="/blogdetails#top">read more</NavLink>
           </div>
         </div>
       </article>
@@ -43,7 +46,7 @@ const News = () => {
               <h4 className="card-title tittt">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
             </a>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-            <a href="blog-single.html" className="btn btn-primary btn-sm">read more</a>
+            <NavLink className='btn btn-primary btn-sm' smooth to="/blogdetails#top">read more</NavLink>
           </div>
         </div>
       </article>
@@ -60,7 +63,7 @@ const News = () => {
               <h4 className="card-title tittt">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
             </a>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-            <a href="blog-single.html" className="btn btn-primary btn-sm">read more</a>
+            <NavLink className='btn btn-primary btn-sm' smooth to="/blogdetails#top">read more</NavLink>
           </div>
         </div>
       </article>

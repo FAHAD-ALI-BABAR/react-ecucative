@@ -10,7 +10,7 @@ import Teacher from './Components/Teacher/Teacher';
 import News from './Components/News/News';
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
 import About from './Pages/About';
 import Course from './Pages/Course';
 import Event from './Pages/Event';
@@ -21,13 +21,19 @@ import Research from './Pages/Research';
 import Scholarship from './Pages/Scholarship';
 import Teachers from './Pages/Teachers';
 import Teachersingle from './Pages/Teachersingle';
-
+import Noticedetails from './Pages/Noticedetails';
+import Coursedetail from './Pages/Coursedetail';
+import Eventsdet from './Pages/Eventsdet';
+import Blogdet from './Pages/Blogdet';
+import { ScrollRestoration } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    
+     
      <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='about' element={<About/>}/>
@@ -40,8 +46,12 @@ function App() {
           <Route path='scholarship' element={<Scholarship/>}/>
           <Route path='teachers' element={<Teachers/>}/>
           <Route path='teachersingle' element={<Teachersingle/>}/>
-          
+          <Route path='noticedetails' element={<Noticedetails/>}/>
+          <Route path='coursedetails' element={<Coursedetail/>}/>
+          <Route path='eventdetails' element={<Eventsdet/>}/>
+          <Route path='blogdetails' element={<Blogdet/>}/>
         </Routes>
+        
       
       
     </>

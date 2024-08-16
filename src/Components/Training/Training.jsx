@@ -1,6 +1,8 @@
 import React from 'react'
 import success from "../../Images/success.jpg"
 import { TiMediaPlayOutline } from "react-icons/ti";
+import { HashLink as NavLink } from 'react-router-hash-link';
+
 const Training = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const Training = () => {
       <div className="col-12 text-center">
         <h6 className="text-white font-secondary mb-0">Click to Join the Advance Workshop</h6>
         <h2 className="section-title text-white">Training In Advance Networking</h2>
-        <a href="contact.html" className="btn btn-light">join now</a>
+        <NavLink className="btn btn-light" smooth to="/contact#top">Join now</NavLink>
       </div>
     </div>
   </div>
