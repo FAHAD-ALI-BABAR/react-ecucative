@@ -121,13 +121,13 @@ const Header = () => {
             <div className="col-lg-8 text-center text-lg-right">
               <ul className="list-inline">
                 <li className="list-inline-item">
-                <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" to="/notice">NOTICE</NavLink>
+                <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" smooth to="/notice#top">NOTICE</NavLink>
                 </li>
                 <li className="list-inline-item">
-                <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" to="/research">RESEARCH</NavLink>
+                <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" smooth to="/research#top">RESEARCH</NavLink>
             </li>
             <li className="list-inline-item">
-            <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" to="/scholarship">SCHOLARSHIP</NavLink>
+            <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" smooth to="/scholarship#top">SCHOLARSHIP</NavLink>
             </li>
             <li className="list-inline-item">
               <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">login</a>
@@ -180,7 +180,7 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a className="dropdown-item" href="#">Teacher</a></li>
-                <li> <NavLink className="dropdown-item" smoothnto="/teachersingle#top">Teacher-single</NavLink></li>
+                <li> <NavLink className="dropdown-item" smooth to="/teachersingle#top">Teacher-single</NavLink></li>
                 <li><NavLink className="dropdown-item" smooth to="/notice#top">Notice</NavLink></li>
                 <li><NavLink className="dropdown-item" smooth to="/noticedetails#top">Notice Details</NavLink></li>
                 <li><NavLink className="dropdown-item" smooth to="/research#top">Research</NavLink></li>
