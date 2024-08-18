@@ -9,7 +9,22 @@ import { SlNotebook } from "react-icons/sl";
 import { SlNote } from "react-icons/sl";
 import education from "../../Images/education.jpg"
 import { HashLink as NavLink } from 'react-router-hash-link';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+const HeroSlider = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,
+    cssEase: 'linear'
+  };
+}
 const Hero = () => {
     useEffect(() => {
        

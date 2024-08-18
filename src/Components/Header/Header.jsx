@@ -12,10 +12,30 @@ import { RiInstagramFill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import banner from "../../Images/banner.jpg"
 import { HashLink as NavLink } from 'react-router-hash-link';
+import { IoIosCloseCircle } from "react-icons/io";
+import { BiColor, BiFontSize } from 'react-icons/bi';
+import { WiDayCloudy } from 'react-icons/wi';
 
+const btnstyle={
+  color:"#ffbc3b",
+  fontsize:"20px",
+  height:"20px",
+  width:"20px"
 
+}
 
 const Header = () => {
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [isSignupOpen, setIsSignupOpen] = useState(false);
+
+  const toggleLoginModal = () => {
+    setIsLoginOpen(!isLoginOpen);
+  };
+
+  const toggleSignupModal = () => {
+    setIsSignupOpen(!isSignupOpen);
+  };
+  
     const [isSticky, setIsSticky] = useState(false);
     const countRef = useRef(null);
   
@@ -118,7 +138,7 @@ const Header = () => {
             </li>
               </ul>
             </div>
-            <div className="col-lg-8 text-center text-lg-right">
+            <div className= "col-lg-8 text-center text-lg-right">
               <ul className="list-inline">
                 <li className="list-inline-item">
                 <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" smooth to="/notice#top">NOTICE</NavLink>
@@ -130,10 +150,10 @@ const Header = () => {
             <NavLink className="nav-link text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" smooth to="/scholarship#top">SCHOLARSHIP</NavLink>
             </li>
             <li className="list-inline-item">
-              <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">login</a>
+              <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" onClick={toggleLoginModal} href="#" >login</a>
             </li>
             <li className="list-inline-item">
-              <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">register</a>
+              <a className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" onClick={toggleSignupModal} href="#">register</a>
             </li>
               </ul>
             </div>
@@ -179,7 +199,7 @@ const Header = () => {
                 Pages <IoIosArrowDown />
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Teacher</a></li>
+                <li><NavLink className="dropdown-item" smooth to="/teachers#top">Teacher</NavLink></li>
                 <li> <NavLink className="dropdown-item" smooth to="/teachersingle#top">Teacher-single</NavLink></li>
                 <li><NavLink className="dropdown-item" smooth to="/notice#top">Notice</NavLink></li>
                 <li><NavLink className="dropdown-item" smooth to="/noticedetails#top">Notice Details</NavLink></li>
@@ -209,7 +229,83 @@ const Header = () => {
           </nav>
         </div>
       </div>
+      <div>
+      {/* Trigger Buttons */}
+     
+
+      {/* Login Modal */}
+      {isLoginOpen && (
+        <div className="modal fade show" style={{ display: 'block' }} tabIndex="-1" role="dialog">
+          <div className="modal-dialog modal-lg" role="document">
+            <div className="modal-content rounded-0 border-0 p-4">
+              <div className="modal-header border-0">
+                <h3>Login</h3>
+                
+                <IoIosCloseCircle type="button" className="close" onClick={toggleLoginModal} aria-label="Close" style={btnstyle} />
+                 
+                
+              </div>
+              <div className="modal-body">
+                <form action="#" className="row">
+                  <div className="col-12">
+                    <input type="text" className="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone" />
+                  </div>
+                  <div className="col-12">
+                    <input type="text" className="form-control mb-3" id="loginName" name="loginName" placeholder="Name" />
+                  </div>
+                  <div className="col-12">
+                    <input type="password" className="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password" />
+                  </div>
+                  <div className="col-12">
+                    <button type="submit" className="btn btn-primary">LOGIN</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Signup Modal */}
+      {isSignupOpen && (
+        <div className="modal fade show" style={{ display: 'block' }} tabIndex="-1" role="dialog">
+          <div className="modal-dialog modal-lg" role="document">
+            <div className="modal-content rounded-0 border-0 p-4">
+              <div className="modal-header border-0">
+                <h3>Register</h3>
+                <IoIosCloseCircle type="button" className="close" onClick={toggleSignupModal} aria-label="Close" style={btnstyle} />
+
+              </div>
+              <div className="modal-body">
+                <form action="#" className="row">
+                  <div className="col-12">
+                    <input type="text" className="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone" />
+                  </div>
+                  <div className="col-12">
+                    <input type="text" className="form-control mb-3" id="signupName" name="signupName" placeholder="Name" />
+                  </div>
+                  <div className="col-12">
+                    <input type="email" className="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email" />
+                  </div>
+                  <div className="col-12">
+                    <input type="password" className="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password" />
+                  </div>
+                  <div className="col-12">
+                    <button type="submit" className="btn btn-primary">SIGN UP</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Modal Overlay for Blurring Background */}
+      {(isLoginOpen || isSignupOpen) && <div className="modal-backdrop fade show" style={{ opacity: 0.5 }}></div>}
+    </div>
     </header>
+
+    
 
     
      
