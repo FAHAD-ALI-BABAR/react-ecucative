@@ -26,6 +26,7 @@ import Coursedetail from './Pages/Coursedetail';
 import Eventsdet from './Pages/Eventsdet';
 import Blogdet from './Pages/Blogdet';
 import { ScrollRestoration } from 'react-router-dom';
+import 'leaflet/dist/leaflet.css';
 
 function App() {
   const [count, setCount] = useState(0)

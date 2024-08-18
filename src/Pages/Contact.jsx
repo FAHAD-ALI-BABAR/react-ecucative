@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header/Header'
 import Abouthero from '../Components/Abouthero/Abouthero'
 import Contactpage from '../Components/Contactpage/Contactpage'
-import Map from '../Components/Map/Map'
+import Maap from "../Components/Map/Map"
 import Footer from '../Components/Footer/Footer'
 
 const Contact = () => {
@@ -11,6 +11,7 @@ const Contact = () => {
     <Header/>
     <Abouthero heading={"Home"} description={"Contact Us"}/>
     <Contactpage/>
+    
     <Footer/>
     </>
   )
