@@ -1,7 +1,8 @@
 import React from 'react'
 import { TiMediaPlayOutline } from "react-icons/ti";
 import { HashLink as NavLink } from 'react-router-hash-link';
-import Success from "../../Images/success.jpg"
+import "./Training.css"
+
 const Training = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const Training = () => {
     </div>
   </div>
 </section>
-<section class="section bg-cover" data-background={Success}>
+<section class="section bg-cover sec-train" >
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative success-video">
