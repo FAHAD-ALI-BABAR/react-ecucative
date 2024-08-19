@@ -14,7 +14,7 @@ const Accordian = () => {
               <span className="h2 d-block">30</span> APR,2019
             </div>
             <div className="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
-              <a href="notice-single.html" className="h4 mb-3 d-block">
+              <a href="#" className="h4 mb-3 d-block">
                 Teaching Materials and Testing Methods
               </a>
               <p className="mb-0">
@@ -24,7 +24,7 @@ const Accordian = () => {
               </p>
             </div>
             <div className="d-md-table-cell text-right pr-0 pr-md-4">
-              <a href="notice-single.html" className="btn btn-primary">
+              <a href="#" className="btn btn-primary">
                 read more
               </a>
             </div>
@@ -35,7 +35,7 @@ const Accordian = () => {
               <span className="h2 d-block">27</span> APR,2019
             </div>
             <div className="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
-              <a href="notice-single.html" className="h4 mb-3 d-block">
+              <a href="#" className="h4 mb-3 d-block">
                 Biltong sirloin sausage brisket porchetta prosciutto
               </a>
               <p className="mb-0">
@@ -45,7 +45,7 @@ const Accordian = () => {
               </p>
             </div>
             <div className="d-md-table-cell text-right pr-0 pr-md-4">
-              <a href="notice-single.html" className="btn btn-primary">
+              <a href="#" className="btn btn-primary">
                 read more
               </a>
             </div>
@@ -56,7 +56,7 @@ const Accordian = () => {
               <span className="h2 d-block">25</span> APR,2019
             </div>
             <div className="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
-              <a href="notice-single.html" className="h4 mb-3 d-block">
+              <a href="#" className="h4 mb-3 d-block">
                 Teaching Materials and Testing Methods
               </a>
               <p className="mb-0">
@@ -66,7 +66,7 @@ const Accordian = () => {
               </p>
             </div>
             <div className="d-md-table-cell text-right pr-0 pr-md-4">
-              <a href="notice-single.html" className="btn btn-primary">
+              <a href="#" className="btn btn-primary">
                 read more
               </a>
             </div>
@@ -77,7 +77,7 @@ const Accordian = () => {
               <span className="h2 d-block">23</span> APR,2019
             </div>
             <div className="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
-              <a href="notice-single.html" className="h4 mb-3 d-block">
+              <a href="#" className="h4 mb-3 d-block">
                 Biltong sirloin sausage brisket porchetta prosciutto
               </a>
               <p className="mb-0">
@@ -87,7 +87,7 @@ const Accordian = () => {
               </p>
             </div>
             <div className="d-md-table-cell text-right pr-0 pr-md-4">
-              <a href="notice-single.html" className="btn btn-primary">
+              <a href="#" className="btn btn-primary">
                 read more
               </a>
             </div>
