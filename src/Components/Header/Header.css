@@ -459,15 +459,27 @@ textarea.form-control {
   transform: scaleY(0);
   transform-origin: top;
 }
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+
+
 
 .navigation {
   background: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
   transition: 0.2s ease;
 }
 @media (max-width: 2000px) {
+  
   .navigation {
     background: #1a1a37;
     
+    
+  }
+  .navbar-collapse{
+   
+   margin-left: 10px;
   }
   
 
@@ -477,11 +489,11 @@ textarea.form-control {
   
   .navbar-collapse {
     background: #1a1a37;
-    max-height: calc(50vh - 150px);
+    overflow: scroll;
     
   }
   .navbar-collapse.show {
-    overflow-y: auto;
+    overflow:scroll;
   }
   
 }

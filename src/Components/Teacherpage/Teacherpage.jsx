@@ -48,7 +48,7 @@ const Teacherpage = () => {
                 alt="teacher"
               />
               <div className="card-body">
-                <a href="teacher-single.html">
+                <a href="#">
                   <h4 className="card-title">Jacke Masito</h4>
                 </a>
                 <p>Teacher</p>
@@ -87,7 +87,7 @@ const Teacherpage = () => {
                 alt="teacher"
               />
               <div className="card-body">
-                <a href="teacher-single.html">
+                <a href="#">
                   <h4 className="card-title">Clark Malik</h4>
                 </a>
                 <p>Teacher</p>
@@ -126,7 +126,7 @@ const Teacherpage = () => {
                 alt="teacher"
               />
               <div className="card-body">
-                <a href="teacher-single.html">
+                <a href="#">
                   <h4 className="card-title">John Doe</h4>
                 </a>
                 <p>Teacher</p>
@@ -165,7 +165,7 @@ const Teacherpage = () => {
                 alt="teacher"
               />
               <div className="card-body">
-                <a href="teacher-single.html">
+                <a href="#">
                   <h4 className="card-title">Jacke Masito</h4>
                 </a>
                 <p>Teacher</p>

@@ -65,7 +65,7 @@ const Evdet = () => {
         </ul>
       </div>
       <div className="col-lg-3 text-lg-right text-left">
-        <a href="event-single.html" className="btn btn-primary">
+        <a href="#" className="btn btn-primary">
           Apply now
         </a>
       </div>

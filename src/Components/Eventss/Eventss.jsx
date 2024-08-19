@@ -32,7 +32,7 @@ const Eventss = () => {
           </div>
           <div className="card-body">
             <p style={{ fontSize: "0.85rem" }}><i className="ti-location-pin text-primary mr-2"></i>Dhanmondi Lake, Dhaka</p>
-            <a href="event-single.html"><h4 className="card-title tittt" >Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
+            <a href="#"><h4 className="card-title tittt" >Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Eventss = () => {
           </div>
           <div className="card-body">
             <p style={{ fontSize: "0.85rem" }}><i className="ti-location-pin text-primary mr-2"></i>Dhanmondi Lake, Dhaka</p>
-            <a href="event-single.html"><h4 className="card-title tittt" >Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
+            <a href="#"><h4 className="card-title tittt" >Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ const Eventss = () => {
           </div>
           <div className="card-body">
             <p style={{ fontSize: "0.85rem" }}><i className="ti-location-pin text-primary mr-2"></i>Dhanmondi Lake, Dhaka</p>
-            <a href="event-single.html"><h4 className="card-title tittt" >Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
+            <a href="#"><h4 className="card-title tittt" >Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
           </div>
         </div>
       </div>

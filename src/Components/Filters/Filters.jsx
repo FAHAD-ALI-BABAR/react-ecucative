@@ -96,7 +96,7 @@ const Filters = () => {
               <div className="card border-0 rounded-0 hover-shadow">
                 <img className="card-img-top rounded-0" src={teacher.image} alt="teacher" />
                 <div className="card-body">
-                  <a href="teacher-single.html">
+                  <a href="#">
                     <h4 className="card-title" style={{color:"black"}}>{teacher.name}</h4>
                   </a>
                   <p>Teacher</p>

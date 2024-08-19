@@ -27,6 +27,10 @@ const btnstyle={
 const Header = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isSignupOpen, setIsSignupOpen] = useState(false);
+  
+  
+
+ 
 
   const toggleLoginModal = () => {
     setIsLoginOpen(!isLoginOpen);
@@ -174,11 +178,12 @@ const Header = () => {
               aria-controls="navigation"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navigation">
-              <ul className="navbar-nav ml-auto text-center">
+            <div className="collapse navbar-collapse" id="navigation" >
+              <ul className="navbar-nav ml-auto text-center" >
                 <li className="nav-item ">
                   <NavLink className="nav-link" smooth to="/#top">Home</NavLink>
                 </li>

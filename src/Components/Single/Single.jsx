@@ -29,13 +29,13 @@ const Single = () => {
           <div class="col-md-6 mb-5 mb-md-0">
             <h4 class="mb-4">CONTACT INFO:</h4>
             <ul class="list-unstyled">
-              <li class="mb-3"><a class="text-color" href="mailto:johndoe@email.com"><HiOutlineEnvelope />    johndoe@email.com</a></li>
-              <li class="mb-3"><a class="text-color" href="tel:+120345876"><MdOutlineLocalPhone /> +120 345 876</a></li>
-              <li class="mb-3"><a class="text-color" href="https://facebook.com/themefisher"><BiLogoFacebook /> john Doe</a></li>
-              <li class="mb-3"><a class="text-color" href="https://twitter.com/themefisher"><RiTwitterFill /> john Doe</a></li>
-              <li class="mb-3"><a class="text-color" href="teacher-single.html"><IoLogoSkype /> john Doe</a></li>
-              <li class="mb-3"><a class="text-color" href="teacher-single.html"><CiGlobe /> johnDoe.com</a></li>
-              <li class="mb-3"><a class="text-color" href="http://maps.google.com/"><IoLocationSharp /> 
+              <li class="mb-3"><a class="text-color" href="#"><HiOutlineEnvelope />    johndoe@email.com</a></li>
+              <li class="mb-3"><a class="text-color" href="#"><MdOutlineLocalPhone /> +120 345 876</a></li>
+              <li class="mb-3"><a class="text-color" href="#"><BiLogoFacebook /> john Doe</a></li>
+              <li class="mb-3"><a class="text-color" href="#"><RiTwitterFill /> john Doe</a></li>
+              <li class="mb-3"><a class="text-color" href="#"><IoLogoSkype /> john Doe</a></li>
+              <li class="mb-3"><a class="text-color" href="#"><CiGlobe /> johnDoe.com</a></li>
+              <li class="mb-3"><a class="text-color" href="#"><IoLocationSharp /> 
               1313 Boulevard
                   Cremazie,Quebec</a></li>
             </ul>
@@ -71,14 +71,14 @@ const Single = () => {
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="course-single.html">Humanities</a></li>
+              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
             </ul>
-            <a href="course-single.html">
+            <a href="#">
               <h4 class="card-title" style={{color:"#ffbc3b"}}>Complete Freelancing</h4>
             </a>
             <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+            <a href="#" class="btn btn-primary btn-sm">Apply now</a>
           </div>
         </div>
       </div>
@@ -89,14 +89,14 @@ const Single = () => {
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="course-single.html">Humanities</a></li>
+              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
             </ul>
-            <a href="course-single.html">
+            <a href="#">
               <h4 class="card-title" style={{color:"#ffbc3b"}}>Branding Design</h4>
             </a>
             <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+            <a href="#" class="btn btn-primary btn-sm">Apply now</a>
           </div>
         </div>
       </div>
@@ -107,14 +107,14 @@ const Single = () => {
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="course-single.html">Humanities</a></li>
+              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
             </ul>
-            <a href="course-single.html">
+            <a href="#">
               <h4 class="card-title" style={{color:"#ffbc3b"}}>Art Design</h4>
             </a>
             <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+            <a href="#" class="btn btn-primary btn-sm">Apply now</a>
           </div>
         </div>
       </div>

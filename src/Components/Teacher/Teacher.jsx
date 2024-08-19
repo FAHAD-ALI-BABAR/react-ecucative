@@ -22,7 +22,7 @@ const Teacher = () => {
         <div className="card border-0 rounded-0 hover-shadow">
           <img className="card-img-top rounded-0" src={teacher1} alt="teacher"/>
           <div className="card-body">
-            <a href="teacher-single.html">
+            <a href="#">
               <h4 className="card-title" style={{color:"#1e1e4b", fontSize:22, fontWeight:'bolder'}}>Jacke Masito</h4>
             </a>
             <p>Teacher</p>
@@ -42,7 +42,7 @@ const Teacher = () => {
         <div className="card border-0 rounded-0 hover-shadow">
           <img className="card-img-top rounded-0" src={teacher2} alt="teacher"/>
           <div className="card-body">
-            <a href="teacher-single.html">
+            <a href="#">
               <h4 className="card-title" style={{color:"#1e1e4b", fontSize:22, fontWeight:'bolder'}}>Clark Malik</h4>
             </a>
             <p>Teacher</p>
@@ -62,7 +62,7 @@ const Teacher = () => {
         <div className="card border-0 rounded-0 hover-shadow">
           <img className="card-img-top rounded-0" src={teacher3} alt="teacher"/>
           <div className="card-body">
-            <a href="teacher-single.html">
+            <a href="#">
               <h4 className="card-title" style={{color:"#1e1e4b", fontSize:22, fontWeight:'bolder'}}>John Doe</h4>
             </a>
             <p>Teacher</p>

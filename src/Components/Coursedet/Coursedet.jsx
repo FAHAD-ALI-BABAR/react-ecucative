@@ -44,8 +44,7 @@ const Coursedet = () => {
             <div className="d-flex align-items-center">
               <i className="ti-wallet text-primary icon-md mr-2"></i>
               <div className="text-left">
-                <h6 className="mb-0">FEE</h6>
-                <p className="mb-0">From: $699</p>
+               
               </div>
             </div>
           </li>

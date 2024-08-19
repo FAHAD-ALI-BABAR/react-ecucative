@@ -25,7 +25,7 @@ const Details = () => {
               <li>Smart Library Portal</li>
               <li>Smart research programs and departments</li>
             </ul>
-            <a href="notice-single.html" className="btn btn-primary">Download</a>
+            <a href="#" className="btn btn-primary">Download</a>
           </div>
         </div>
       </div>

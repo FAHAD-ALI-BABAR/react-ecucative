@@ -8,7 +8,7 @@ const Aboutsuccess = () => {
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative success-video">
-        <a class="play-btn venobox" href="https://youtu.be/nA1Aqp0sPQo" data-vbtype="video">
+        <a class="play-btn venobox" href="#" data-vbtype="video">
         <TiMediaPlayOutline style={{marginTop:"30px", fontSize:"25px"}} />
         </a>
       </div>

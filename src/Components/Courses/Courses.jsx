@@ -32,7 +32,7 @@ const Courses = () => {
       <div className="card-body">
         <ul className="list-inline mb-2">
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li className="list-inline-item"><a className="text-color" href="course-single.html">Humanities</a></li>
+          <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
         <a href="course-single.html">
           <h4 className="card-title" style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Photography</h4>
@@ -50,7 +50,7 @@ const Courses = () => {
       <div className="card-body">
         <ul className="list-inline mb-2">
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li className="list-inline-item"><a className="text-color" href="course-single.html">Humanities</a></li>
+          <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
         <a href="course-single.html">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Programming</h4>
@@ -68,7 +68,7 @@ const Courses = () => {
       <div className="card-body">
         <ul className="list-inline mb-2">
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li className="list-inline-item"><a className="text-color" href="course-single.html">Humanities</a></li>
+          <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
         <a href="course-single.html">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Lifestyle Archives</h4>
@@ -86,7 +86,7 @@ const Courses = () => {
       <div className="card-body">
         <ul className="list-inline mb-2">
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li className="list-inline-item"><a className="text-color" href="course-single.html">Humanities</a></li>
+          <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
         <a href="course-single.html">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Complete Freelancing</h4>
@@ -104,7 +104,7 @@ const Courses = () => {
       <div className="card-body">
         <ul className="list-inline mb-2">
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li className="list-inline-item"><a className="text-color" href="course-single.html">Humanities</a></li>
+          <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
         <a href="course-single.html">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Branding Design</h4>
@@ -122,7 +122,7 @@ const Courses = () => {
       <div className="card-body">
         <ul className="list-inline mb-2">
           <li className="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li className="list-inline-item"><a class="text-color" href="course-single.html">Humanities</a></li>
+          <li className="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
         </ul>
         <a href="course-single.html">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Art Design</h4>
