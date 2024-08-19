@@ -1,10 +1,11 @@
 import React from 'react'
 import success from "../../Images/success.jpg"
 import { TiMediaPlayOutline } from "react-icons/ti";
+import "./Aboutsuccess.css"
 const Aboutsuccess = () => {
   return (
     <>
-    <section class="section bg-cover" data-background="src/Images/success.jpg">
+    <section class="section bg-cover sec-train" >
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative success-video">

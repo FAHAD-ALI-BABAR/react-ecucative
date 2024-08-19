@@ -2,13 +2,16 @@ import React from 'react'
 import { useState } from 'react';
 import { FaFacebook, FaTwitter, FaGoogle, FaLinkedin } from 'react-icons/fa';
 import classNames from 'classnames';
+import tech1 from "../../Images/teacher1.jpg"
+import tech2 from "../../Images/teacher2.jpg"
+import tech3 from "../../Images/teacher3.jpg"
 const Filters = () => {
     const [filter, setFilter] = useState('all');
 
   const teachers = [
     {
       name: 'Jacke Masito',
-      image: 'src/Images/teacher1.jpg',
+      image: tech1,
       category: ['arts', 'law'],
       social: {
         facebook: '#',
@@ -19,7 +22,7 @@ const Filters = () => {
     },
     {
       name: 'Clark Malik',
-      image: 'src/Images/teacher2.jpg',
+      image:  tech2,
       category: ['bio-science','pharmacy'],
       social: {
         facebook: '#',
@@ -30,7 +33,7 @@ const Filters = () => {
     },
     {
       name: 'John Doe',
-      image: 'src/Images/teacher3.jpg',
+      image:  tech3,
       category: ['business-study','science'],
       social: {
         facebook: '#',
@@ -42,7 +45,7 @@ const Filters = () => {
     // Add the rest of the teachers here...
     {
         name: 'Clark Malik',
-        image: 'src/Images/teacher2.jpg',
+        image: tech2,
         category: ['social-science'],
         social: {
           facebook: '#',
