@@ -18,7 +18,7 @@ const FunFactsSection = () => {
           clearInterval(interval);
         }
         setCount(Math.ceil(currentCount));
-      }, 50); // this is speed of the intrval
+      }, 40); // this is speed of the intrval
     };
 
     incrementCount(setTeachersCount, 90);
