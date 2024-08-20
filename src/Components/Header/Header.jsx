@@ -122,7 +122,7 @@ const Header = () => {
         <div className="container">
           <div className="row no-gutters">
             <div className="col-lg-4 text-center text-lg-left">
-              <a className="text-color mr-3" href="tel:+443003030266">
+              <a className="text-color mr-3" href="#">
                 CALL : 00 111 222 3333
               </a>
               <ul className="list-inline d-inline">
@@ -167,7 +167,7 @@ const Header = () => {
       <div className="navigation w-100">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark p-0">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="#">
               <img src= {logo}alt="logo" />
             </a>
             <button

@@ -66,8 +66,8 @@ const Contactpage = () => {
         <p className="mb-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt. Dolore, labore. Accusamus nulla sed cum aliquid exercitationem debitis error harum porro maxime quo iusto aliquam dicta modi earum fugiat, vel possimus commodi, deleniti et veniam, fuga ipsum praesentium. Odit unde optio nulla ipsum quae obcaecati! Quod esse natus quibusdam asperiores quam vel, tempore itaque architecto ducimus expedita.
         </p>
-        <a href="tel:+8802057843248" className="text-color h5 d-block">+880 20 5784 3248</a>
-        <a href="mailto:yourmail@email.com" className="mb-5 text-color h5 d-block">yourmail@email.com</a>
+        <a href="#" className="text-color h5 d-block">+880 20 5784 3248</a>
+        <a href="#" className="mb-5 text-color h5 d-block">yourmail@email.com</a>
         <p>71 Shelton Street<br />London WC2H 9JQ England</p>
       </div>
     </div>

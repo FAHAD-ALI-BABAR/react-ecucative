@@ -67,7 +67,7 @@ const Eventss = () => {
 
     <div className="row">
       <div className="col-12 text-center">
-        <a href="course.html" className="btn btn-sm btn-outline-primary d-sm-none d-inline-block">see all</a>
+        <a href="#" className="btn btn-sm btn-outline-primary d-sm-none d-inline-block">see all</a>
       </div>
     </div>
   </div>

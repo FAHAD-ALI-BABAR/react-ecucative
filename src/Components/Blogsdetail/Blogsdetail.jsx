@@ -15,7 +15,7 @@ const Blogsdetail = () => {
           <li className="list-inline-item mr-4 mb-3 mb-md-0 text-light">August 28, 2017</li>
           <li className="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i className="ti-book mr-2"></i>Read 289</li>
           <li className="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i className="ti-share mr-2"></i>289</li>
-          <li className="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a className="text-light" href="blog-single.html"><i className="ti-comments mr-2"></i>265</a></li>
+          <li className="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a className="text-light" href="#"><i className="ti-comments mr-2"></i>265</a></li>
         </ul>
       </div>
       

@@ -34,7 +34,7 @@ const Courses = () => {
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
           <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
-        <a href="course-single.html">
+        <a href="#">
           <h4 className="card-title" style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Photography</h4>
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -52,7 +52,7 @@ const Courses = () => {
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
           <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
-        <a href="course-single.html">
+        <a href="#">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Programming</h4>
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -70,7 +70,7 @@ const Courses = () => {
           <li className="list-inline-item"><i className="ti-calendar mr-1 text-color"></i>02-14-2018</li>
           <li className="list-inline-item"><a className="text-color" href="#">Humanities</a></li>
         </ul>
-        <a href="course-single.html">
+        <a href="#">
           <h4 className="card-title"  style={{color:"#1a1a37", fontSize:28, fontWeight:"bolder"}}>Lifestyle Archives</h4>
         </a>
         <p className="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor

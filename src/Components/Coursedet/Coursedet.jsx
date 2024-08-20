@@ -51,7 +51,7 @@ const Coursedet = () => {
         </ul>
       </div>
       <div className="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
-        <a href="course-single.html" className="btn btn-primary">Apply now</a>
+        <a href="#" className="btn btn-primary">Apply now</a>
       </div>
       {/* border */}
       <div className="col-12 mt-4 order-4">
